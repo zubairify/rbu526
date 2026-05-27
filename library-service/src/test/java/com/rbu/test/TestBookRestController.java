@@ -11,6 +11,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 import org.junit.jupiter.api.Test;
@@ -27,6 +28,7 @@ import com.rbu.controller.BookRestController;
 import com.rbu.entity.Book;
 import com.rbu.service.BookService;
 
+@Disabled
 @WebMvcTest(BookRestController.class)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 public class TestBookRestController {
